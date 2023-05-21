@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "2edf959682b4f5d90790f307075ba1fc")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001738593877"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒𝐜𝐚☈𝐥𝐞𝐭 𝐌𝐮𝐬ɨ𝐜 ♬")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5023815012").split()))
@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5023815012").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/iamproaf/believersmusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/OFFICIALBOT_UPDATE")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
